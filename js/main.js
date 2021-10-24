@@ -29,10 +29,7 @@ $(function(){
               settings: {
                 arrows: false,
                 dots: true,
-                centerMode: true,
-                slidesToShow: 2,
-                centerPadding: '60px',
-
+                
               }
             },
             
@@ -42,3 +39,6 @@ $(function(){
 
 });
 
+$('.menu').on('click', function() {
+  $('.menu__list').toggleClass('menu__list--active');
+}); 
